@@ -1,0 +1,96 @@
+select {
+    font-size: 16px;        /* Adjust readable size */
+    padding: 8px;           /* Add spacing inside */
+    border-radius: 5px;     /* Smooth corners */
+    border: 1px solid #ccc; /* Thin border */
+    width: 120px;           /* Fixed width */
+    cursor: pointer;
+}
+
+option {
+    font-size: 40px;        /* Make options text bigger */
+    padding: 6px;           /* Space for better readability */
+}
+h2{
+    margin-left: 7rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#entrAmt{
+   font-size: 1.5rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f4e4ba; */
+    background-image: url("currency.avif");
+    background-size: 2000px 1900px;
+}
+.container{
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 31vh;
+    width:23vh;
+
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{    /* form ke andar select ,button , input */
+   width: 100%;
+   border: none;
+   outline: none;
+   border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1.3rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.select-container img {
+    max-width: 3rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-size: 1.3rem;
+}
+
+form button{
+     height: 3rem;
+     background-color: #af4d98;
+     color: white;
+     font-size: 1.15rem;
+     margin-top: 2rem;
+}
